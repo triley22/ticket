@@ -20,6 +20,14 @@
 @import "projects";
 @import "responsive";
 
+header {
+  @extend .page-header;
+  position: relative;
+  padding-bottom: 0px;
+  &:first-child {
+    margin-top: 20px;
+	} 
+}
 
 .page-header {
 	position: relative;

@@ -38,7 +38,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 group :test do 
-	gem 'capybara', '~> 2.11'
+  gem 'capybara', '~> 2.11'
   gem 'factory_girl_rails', '~> 4.5'
 end
 
